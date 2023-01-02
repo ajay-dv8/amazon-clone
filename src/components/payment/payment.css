@@ -1,0 +1,49 @@
+.payment{
+    background: #fff;
+}
+
+.paymentCon > h1{
+    text-align: center;
+    padding: 0.625rem;
+    font-weight: 400;
+    background: rgb(234, 237, 237);
+    border: 1px solid lightgray;
+}
+.paymentCon > h1 a{
+    text-decoration: none;
+}
+
+.paymentSection{
+    display: flex;
+    padding: 1.25rem;
+    margin: 0 1.25rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.paymentTitle{
+    flex: 0.2;
+}
+.paymentAddress, .paymentItems, .paymentDetails{
+    flex: 0.8;
+    display: block;
+}
+
+.paymentDetails form{
+    max-width: 25rem;
+}
+
+.paymentDetails h3{
+    padding-bottom: 1.25rem;
+}
+
+.paymentPriceCon button{
+    width: 100%;
+    height: 1.875rem;
+    background: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 2px;
+    margin-top: 0.625rem;
+    color: #111;
+    font-weight: bolder;
+}

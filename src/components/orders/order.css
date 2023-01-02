@@ -1,0 +1,18 @@
+.order{
+    padding: 2.5rem;
+    margin: 1.25rem 0;
+    position: relative;
+    background: white;
+    border: 1px solid lightgray;
+}
+
+.orderId{
+    position: absolute;
+    top: 2.5rem;
+    right: 1.25rem;
+}
+
+.orderTotal{
+    font-weight: 500;
+    text-align: right;
+}

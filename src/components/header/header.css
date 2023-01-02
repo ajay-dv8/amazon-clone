@@ -1,0 +1,63 @@
+.header{
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background: #000000;
+    z-index: 10;
+    top: 0;
+}
+
+.hLogo{
+    width: 6.25rem;
+    object-fit: contain;
+    margin-top: 1.125rem;
+    margin: 0 1.25rem;
+}
+
+.searchCon{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+.hSearchInput{
+    width: 100%;
+    height: 0.75rem;
+    padding: 0.625rem;
+    border: none;
+
+}
+.muiSearch{
+    background: #cd9042;
+    height: 1.375rem!important;
+    padding: 0.313rem;
+}
+
+.hNav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hOption{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.625rem;
+    color: #fff;
+}
+.topOpt{
+    font-size: 0.625rem;
+}
+.mainOpt{
+    font-size: 0.813rem; 
+    font-weight: 700;
+}
+
+.hCart{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.cartCount{
+    margin: 0 0.625rem;
+}
