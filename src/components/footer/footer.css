@@ -1,7 +1,57 @@
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+}
+
 .footer{
     height: 12rem;
     display: flex;
     align-items: center;
-    background: #000000;
+    justify-content: space-around;
     color: white;
+}
+
+.muiIcons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.muiIcons a{
+    color: white;
+    transition: all 0.5s ease;
+}.muiIcons a:hover{
+    transform: scale(1.1);
+}
+
+.abt_dev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}.dev_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.3rem;
+}.dev_list span{
+    margin: 0.2rem;
+    transition: 0.5s ease;
+}
+.dev_list span:nth-child(2):hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.dev_list span:nth-child(2):hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0.5vw;
+}
+.footer_bottom span {
+    color: gray;
 }
